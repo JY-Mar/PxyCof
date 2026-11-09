@@ -1,9 +1,9 @@
 /*
  * NAME            : pluginHeaderRewrite
  * AUTHOR          : JY-Mar
- * REPO            : https://github.com/JY-Mar/PxyRes
+ * REPO            : https://github.com/JY-Mar/PxyCof
  * UPDATER         : JY-Mar
- * UPDATED         : 2026-05-08 15:19:25 +0800
+ * UPDATED         : 2026-11-09 12:24:56 +0800
  * DESC            : 插件文件 头信息重写
  */
 
