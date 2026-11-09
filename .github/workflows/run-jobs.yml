@@ -15,8 +15,8 @@ on:
     branches:
       - main
     paths:
-      - "Clash/*.yaml"
-      - "Loon/*.lcf"
+      - "Clash/**/*.yaml"
+      - "Loon/**/*.lcf"
 
 # 设置权限
 permissions:
@@ -43,8 +43,8 @@ jobs:
       - name: 🗃️ Create output directory and copy something
         run: |
           mkdir -p docs
-          cp -r Clash docs/Clash
-          cp -r Loon docs/Loon
+          cp -r Clash/Config/* docs/Clash/
+          cp -r Loon/Config/* docs/Loon/
 
       - name: 📤 Upload artifact
         uses: actions/upload-pages-artifact@v3

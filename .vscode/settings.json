@@ -33,7 +33,7 @@
   "emeraldwalk.runonsave": {
     "commands": [
       {
-        "match": ".*(\\/|\\\\)(Clash|Loon|General)(\\/|\\\\).+\\.(yaml|lcf|conf)$",
+        "match": ".*(\\/|\\\\)(Clash|Loon|General)(\\/|\\\\)Config(\\/|\\\\).+\\.(yaml|lcf|conf)$",
         "cmd": "node \"${workspaceFolder}/scriptsForNode/configHeaderRewrite.js\" \"${file}\""
       }
     ]
