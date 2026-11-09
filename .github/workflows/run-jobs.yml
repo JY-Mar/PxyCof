@@ -43,8 +43,10 @@ jobs:
       - name: 🗃️ Create output directory and copy something
         run: |
           mkdir -p docs
-          cp -r Clash/Config/* docs/Clash/
-          cp -r Loon/Config/* docs/Loon/
+          mkdir -p docs/Clash
+          mkdir -p docs/Loon
+          cp -r Clash/Config/* docs/Clash
+          cp -r Loon/Config/* docs/Loon
 
       - name: 📤 Upload artifact
         uses: actions/upload-pages-artifact@v3
