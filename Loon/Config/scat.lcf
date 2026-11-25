@@ -1,7 +1,7 @@
 # NAME            : Config For Loon
 # AUTHOR          : JY-Mar
 # REPO            : https://github.com/JY-Mar/PxyCof
-# UPDATED         : 2026-11-09 12:12:52 GMT+8
+# UPDATED         : 2026-11-25 12:05:00 GMT+8
 
 [General]
 # ---- 流量绕过 ----
@@ -104,7 +104,7 @@ Filter_Nat__LU = NameRegex, FilterKey = "^(?=.*((?i)🇱🇺|卢森堡|(\b(LU|Lu
 Filter_Nat__LT = NameRegex, FilterKey = "^(?=.*((?i)🇱🇹|立陶宛|(\b(LT|Lithuania)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
 Filter_Reg_EUR = NameRegex, FilterKey = "^(?=.*((?i)🇬🇧|英国|伦敦|英|🇫🇷|法国|法兰西|巴黎|法|🇩🇪|德国|德意志|柏林|德|🇮🇹|意大利|罗马|意|🇳🇱|荷兰|阿姆斯特丹|鹿特丹|荷|🇱🇺|卢森堡|🇱🇹|立陶宛|(\b(GB|UK|United Kingdom|England|Britain|FR|France|DE|GER|Germany|IT|Italy|NL|Holland|Netherlands|Nederland|LU|Luxembourg|Luxemburg|LT|Lithuania)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
 Filter____Game = NameRegex, FilterKey = "^(?=.*((?i)游戏|蒸汽平台|索尼|任天堂|(\b(GAME|Steam|PS|PlayStation|NS|Nintendo|Switch|Xbox)(\d+)?\b)))(?!.*((?i)回国|校园)).*$"
-Filter__Global = NameRegex, FilterKey = "^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|\.com|(\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel)\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$"
+Filter__Global = NameRegex, FilterKey = "^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|日起|到期|机场|下次|版本|官址|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|\.com|(\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel)\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$"
 
 [Proxy Group]
 # 基础策略
